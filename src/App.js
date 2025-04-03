@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import DataTable from './DataTable';
 
 function App() {
     const initialData = [
