@@ -12,7 +12,7 @@ function App() {
         const records = [];
         for (let i = 0; i < 100; i++) {
             const technology = technologies[Math.floor(Math.random() * technologies.length)];
-            let projectName = '';
+            let projectName = ''
 
             const projectNames = {
                 'Java Spring Boot': ['Microservices API', 'RESTful Backend', 'Enterprise App', 'Spring Batch Job'],
